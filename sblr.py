@@ -1,3 +1,13 @@
+'''
+      _     _          _  _                 _    
+     | |   | |        | || |               | |   
+  ___| |__ | |_ __ ___| || |_ ___  ___  ___| | __
+ / __| '_ \| | '__/ _ \__   _/ _ \/ _ \/ _ \ |/ /
+ \__ \ |_) | | | | (_) | | ||  __/  __/  __/   < 
+ |___/_.__/|_|_|  \___/  |_| \___|\___|\___|_|\_\
+			
+
+Coder :: https://t.me/sblro4eeek'''
 import os
 import requests
 import folium
@@ -27,7 +37,7 @@ def ip():
 		for k, v in data.items():
 			info += f'{k} :: {v}\n'
 
-		print(f'{info}\nКарта находится в файле: {response.get("query")}.html')
+		print(f'{info}\nКарта находится в файле: /storage/emulated/0/@sblro4eeek/{response.get("query")}.html')
 		main()
 	except:
 		print('Ошибка')
