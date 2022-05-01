@@ -1,1 +1,1 @@
-# sbl_termux
+pip install -r requirements.txt
